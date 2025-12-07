@@ -1,0 +1,9 @@
+{
+	"name": "nicdatafactory",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "abd3dcd9-2f70-40e4-8d64-c2e23bccd9c4",
+		"tenantId": "1a2f87b5-04e2-4948-95f7-3ce119b12685"
+	}
+}

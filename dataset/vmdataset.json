@@ -1,0 +1,19 @@
+{
+	"name": "vmdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "vmlinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
