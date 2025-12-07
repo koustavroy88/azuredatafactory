@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "nicdatafactory"
+		},
+		"AzureSynapseAnalytics1_connectionString": {
+			"value": ""
+		},
+		"datalakelinkedservice_accountKey": {
+			"value": ""
+		},
+		"sql_db_linked_service_password": {
+			"value": ""
+		},
+		"vmlinkedservice_password": {
+			"value": ""
+		},
+		"datalakelinkedservice_properties_typeProperties_url": {
+			"value": "https://nicdatalakedemo.dfs.core.windows.net/"
+		},
+		"sql_db_linked_service_properties_typeProperties_server": {
+			"value": "nicdemo.database.windows.net"
+		},
+		"sql_db_linked_service_properties_typeProperties_database": {
+			"value": "appdb"
+		},
+		"sql_db_linked_service_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		},
+		"vmlinkedservice_properties_typeProperties_host": {
+			"value": "C:\\data"
+		},
+		"vmlinkedservice_properties_typeProperties_userId": {
+			"value": "shiruser"
+		}
+	}
+}
